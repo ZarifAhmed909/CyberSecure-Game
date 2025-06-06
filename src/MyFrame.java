@@ -330,7 +330,7 @@ public class MyFrame extends JFrame {
         myLabel.setSize(1200,900);
         add(myLabel);
 
-        Timer timer = new Timer(3000, new ActionListener() {
+        Timer timer = new Timer(15000, new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 enemyChoice();
             }
